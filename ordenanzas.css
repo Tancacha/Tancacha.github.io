@@ -240,12 +240,61 @@ a {
 
 }
 
-.botonesOrdenanzas{
+
+.buscadorOrdenanzas{
     flex-wrap: wrap; /* Asegura que los botones se apilen verticalmente */
     justify-content: center;
     width: 85%;
     background-color: transparent;
     margin-top: 20px; 
+    text-align: center;
+    align-content: flex-start;
+    margin-bottom: 20px;
+    min-height: 40px;
+}
+
+.buscador-container {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+}
+
+#buscador {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+}
+
+#boton-buscar {
+    padding: 8px;
+    font-size: 16px;
+    margin-left: 8px;
+    background-color: transparent;
+}
+
+#boton-buscar:hover{
+    color: white;
+    background-color: black;
+}
+
+#lista-ordenanzas li {
+    margin-bottom: 8px;
+}
+
+#lista-ordenanzas a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+   
+}
+
+
+
+.botonesOrdenanzas{
+    flex-wrap: wrap; /* Asegura que los botones se apilen verticalmente */
+    justify-content: center;
+    width: 85%;
+    background-color: transparent;
     text-align: center;
     align-content: flex-start;
     margin-bottom: 20px;
