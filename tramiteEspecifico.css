@@ -107,7 +107,6 @@ a {
     flex-direction: column; /* Cambiado a columna para que los elementos se apilen verticalmente */
     align-items: center;
     width: 100%;
-    min-height: 250px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -124,7 +123,7 @@ a {
     justify-content: center;
     align-content: flex-start;
     align-items: flex-start;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .contenedorTituloParrafo a{
@@ -140,6 +139,44 @@ a {
 
 .contenedorTituloParrafo p{
     font-size: 20px;
+}
+
+
+.contenedorTextoImportante{
+    align-content: center;
+    display: flex;
+    flex-wrap: nowrap; /* Asegura que los botones se apilen verticalmente */
+    justify-content: center;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    border-width: 6px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #692e89, #e12a48, #fbbe01); /* Gradiente de tres colores */
+    border-image-slice: 1; /* Esto ajusta la división del gradiente */
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contenedorTextoImportante h3{
+     font-size: 25px;
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-decoration: underline;
+        text-decoration-color: black;
+
+}
+
+.contenedorTextoImportante p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 /* FIN PRIMER DE TITULO */

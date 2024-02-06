@@ -80,10 +80,11 @@ a {
     background: linear-gradient(to right, #692e89 0%, #692e89 33%, #e12a48 33%, #e12a48 66%, #fbbe01 66%, #fbbe01 100%);
     display: block;
 }
-@media (max-width: 1223px)
+@media (max-width: 1223px){
 .ingresar {
     width: 120px;
     font-size: 15px;
+}
 }
 
 /*PORTAL DE COMUNICACIONES*/
@@ -98,12 +99,12 @@ a {
 
 @media(max-width:1365px){
     .portalDeComunicacion{
-        height: 700px;
+        
     }
 }
 @media(max-width:685px){
     .portalDeComunicacion{
-        height: 1290px;
+        
     }
 }
 
