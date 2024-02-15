@@ -70,6 +70,8 @@ button{
     cursor: pointer;
 }
 
+
+
 a {
     text-decoration: none; /* Quita el subrayado */
     color: #333; /* Cambia el color del texto del enlace */
@@ -163,26 +165,23 @@ a {
     }
 
     .ingresar{
+    width: 80px;
+    height: 60px;
     display: inline-block;
-    margin-right: 0px;
-   
-
+    margin-right: 10px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;}
+    button{
+        font-size: small;
     }
 
-    .ingresar:hover{
-        width: 120px;
-        font-size: 15px;
-    }
-
 
 }
 
-@media (max-width: 1223px){
-    .ingresar {
-    width: 120px;
-    font-size: 15px;
-}
-}
+
 
 
 /* fin carrusel */
