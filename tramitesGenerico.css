@@ -286,6 +286,9 @@ a {
 .containerLogo img{
     height: 100%;
 }
+.pinGoogleMaps{
+    border: 3px solid #c3c3c3;
+}
 
 .containerRedes {
     width: 400px;
