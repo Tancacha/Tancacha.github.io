@@ -6,6 +6,9 @@
 
 }
 
+/*<button class="ingresar">INGRESAR</button>*/
+/*<a href="https://cidi.cba.gov.ar/portal-publico/?App=579">*/
+
 .btn-wsp{
     position: fixed;
     width: 55px;
@@ -43,9 +46,9 @@ header{
     box-sizing: border-box;
     background-color: white;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 10px;
+    align-items: center;
     
 }
 
@@ -73,26 +76,57 @@ button{
 .ingresar{
     width: 190px;
     height: 60px;
-    display: inline-block;
+    display: inline-flex;
     margin-right: 30px;
     border: 2px solid #333;
     border-radius: 8px;
     text-align: center;
     background-color: transparent;
     cursor: pointer;
+    font-size: 1.5em;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
 
 }
-.ingresar:hover{
-    width: 190px;
-    height: 60px;
-    display: inline-block;
-    
-    color: white;
-    border-radius: 8px;
-    text-align: center;
-    background-color: #333;
-    cursor: pointer;
+.ingresar .imagenIngresar{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
+
+.imagenIngresar img{
+    width: 90%;
+    height: 90%;
+}
+
+.ingresar .textoIngresar{
+    width: 50%;
+    height: 100%;
+    font-size: 20px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+
+.ingresar:hover {
+    color: white ;
+    background-color: black ;
+}
+
+
+
 
 a {
     text-decoration: none; /* Quita el subrayado */
@@ -169,10 +203,9 @@ a {
     }
 }
 
-@media (max-width:400px){
+@media (max-width:466px){
     header{
         
-        align-items: normal;
     }
     .containerHeader{
     background-color: white;
@@ -187,16 +220,8 @@ a {
     }
 
     .ingresar{
-    display: inline-block;
+    width: 150px;
     margin-right: 0px;
-   
-
-
-    }
-
-    .ingresar:hover{
-        width: 120px;
-        font-size: 15px;
     }
 
 
@@ -216,15 +241,7 @@ a {
 @media(max-width:1223px){
     .tramitesYServicios{
     }
-    .ingresar{
-        width: 120px;
-        font-size: 15px;
-    }
 
-    .ingresar:hover{
-        width: 120px;
-        font-size: 15px;
-    }
 }
 
 .tramitesYServicios h2{
