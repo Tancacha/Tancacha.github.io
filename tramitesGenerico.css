@@ -42,9 +42,9 @@ header{
     box-sizing: border-box;
     background-color: white;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 10px;
+    align-items: center;
     
 }
 
@@ -121,20 +121,25 @@ button{
     background-color: black ;
 }
 
-@media(max-width:447px){
-    .ingresar{
-    width: 80px;
-    height: 60px;
-    display: inline-block;
-    margin-right: 10px;
-    border: 2px solid #333;
-    border-radius: 8px;
-    text-align: center;
-    background-color: transparent;
-    cursor: pointer;
+@media(max-width:466px){
+    header{
+        
     }
-    button{
-        font-size: small;
+    .containerHeader{
+    background-color: white;
+    display: flex;
+    width: 15%;
+    height: 100%;
+    margin-left: 2%;
+
+    }
+    .containerHeader img{
+    height: 97%;
+    }
+
+    .ingresar{
+    width: 150px;
+    margin-right: 0px;
     }
 }
 
@@ -366,7 +371,7 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 450px;
+        height: 650px;
         justify-items: center;
     }
     .containerLogo{
