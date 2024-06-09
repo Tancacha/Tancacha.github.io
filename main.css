@@ -646,6 +646,12 @@ a {
 }
 
 
+@media (max-width:1057px){
+    .telefonosUtiles{
+        flex-direction: column;
+    }
+}
+
 /*FIN TELEFONOS UTILES*/
 
 
