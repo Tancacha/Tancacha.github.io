@@ -32,7 +32,7 @@
 body{
     margin: 0px;
     background-color: white;
-    font-family: Arial Rounded MT ;
+    font-family: "Poppins", sans-serif; 
 }
 
 header{
@@ -69,15 +69,54 @@ button{
     height: 97%;
 }
 
+.botoneraPrincipal{
+    background-color: transparent;
+    height: 80%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.botonDeMenu{
+    background-color: ;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    height: 80%;
+    color: #692e89;
+}
+
+.separadorBotonMenu{
+    display: flex;
+    text-align: center;
+    background-color: #692e89;
+    margin-left: 8px;
+    min-width: 3px;
+    place-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    height: 60%;
+}
+
+.botonDeMenu:hover{
+    transform: scale(1.2);
+    transition: transform 0.8s ease;
+}
+
+.botonDeMenu img{
+    width: 100%;
+    height: 80%;
+}
+
 .ingresar{
     width: 190px;
     height: 60px;
     display: inline-flex;
     margin-right: 30px;
-    border: 2px solid #333;
+    
     border-radius: 8px;
     text-align: center;
-    background-color: transparent;
+    background-color: #692e89;
     cursor: pointer;
     font-size: 1.5em;
     flex-direction: row;
@@ -103,6 +142,7 @@ button{
     height: 90%;
 }
 
+
 .ingresar .textoIngresar{
     width: 50%;
     height: 100%;
@@ -112,50 +152,36 @@ button{
     justify-content: center;
     align-items: center;
     align-content: center;
-
+    color: white;
 }
 
 
 .ingresar:hover {
     color: white ;
-    background-color: black ;
-}
-
-@media(max-width:466px){
-    header{
-        
-    }
-    .containerHeader{
-    background-color: white;
-    display: flex;
-    width: 15%;
-    height: 100%;
-    margin-left: 2%;
-
-    }
-    .containerHeader img{
-    height: 97%;
-    }
-
-    .ingresar{
-    width: 150px;
-    margin-right: 0px;
+    background-color: #411d54 ;
+    .imagenIngresar img{
+        transform: scale(1.1);
+        transition: transform 0.8s ease;
     }
 }
+
+
+
+
 
 
 a {
-    text-decoration: none;
-    color: #333; 
+    text-decoration: none; /* Quita el subrayado */
+    color: #333; /* Cambia el color del texto del enlace */
 }
 
-
-
 .barradivisora{
-    height: 5px;
+    height: 10px;
     background: linear-gradient(to right, #692e89 0%, #692e89 33%, #e12a48 33%, #e12a48 66%, #fbbe01 66%, #fbbe01 100%);
     display: block;
 }
+
+
 
 /* FIN HEADER */
 
@@ -191,28 +217,38 @@ a {
 .contenedorTituloParrafo h2{
     font-size: 40px;
     margin-top: 20px;
+    color: #692e89;
 }
 
 .contenedorTituloParrafo p{
     font-size: 20px;
+    color: #692e89;
 }
 
 /* FIN PRIMER DE TITULO */
-.tramitesYServicios{
+#tramitesYServicios{
     background-color: white;
     display: flex;
     flex-direction: column; /* Cambiado a columna para que los elementos se apilen verticalmente */
     align-items: center;
     width: 100%;
-    height: 350px;
+    min-height: 590px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+
 }
 
+@media(max-width:1223px){
+    #tramitesYServicios{
+    }
 
+}
 
-.tramitesYServicios h2{
+#tramitesYServicios h2{
     margin-top: 20px;
     text-align: center;
-    color: #black;
+    color: #692e89;
+    font-size: 34px;
     
 }
 
@@ -221,39 +257,43 @@ a {
     flex-wrap: wrap; /* Asegura que los botones se apilen verticalmente */
     justify-content: center;
     width: 85%;
-    height: 400px;
     background-color: transparent;
     margin-top: 20px; 
     text-align: center;
     align-content: flex-start;
+
+
 }
 
 .botonTramite {
     width: 400px; /* Ajusta el ancho de tus botones según sea necesario */
-    
+    color: white;
     margin: 10px; /* Ajusta el margen entre los botones según sea necesario */
-    background-color: transparent; /* Ajusta el color de fondo según sea necesario */
-    border: 6px solid #c3c3c3;
-    border-radius: 8px;
+    background-color: #692e89; /* Ajusta el color de fondo según sea necesario */
+    border-radius: 15px;
     display: flex;
     text-align: center;
-    align-items: center;
+    align-items: center
 
 }
 
 .botonTramite:hover{
-    border-width: 6px;
+    /*border-width: 3px;
     border-style: solid;
-    border-image: linear-gradient(to right, #692e89, #e12a48, #fbbe01); /* Gradiente de tres colores */
-    border-image-slice: 1; /* Esto ajusta la división del gradiente */
-    border-radius: 8px;
-    color:#692e89 ;
+    border-color: #692e89;
+    /*border-image: linear-gradient(to right, #692e89, #e12a48, #fbbe01); /* Gradiente de tres colores */
+    /*border-image-slice: 1; /* Esto ajusta la división del gradiente */
+    /*border-radius: 8px;
+    color:#692e89 ; */
+    transform: scale(1.02);
+    transition: transform 0.8s ease;
     .imagenBotonTramite img{
         transform: scale(1.1);
         transition: transform 0.8s ease;
+
     }
     .textoBoton h3{
-        text-decoration: underline;
+        /*text-decoration: underline;*/
     }
 
 
@@ -263,6 +303,7 @@ a {
     width: 25%;
     height: 100%;
     background-color: transparent;
+    border-radius: 8px;
     
 }
 
@@ -274,52 +315,61 @@ a {
     width: 75%;
     height: 100%;
     background-color: transparent;
+    margin-bottom:10px;
 }
 
 .textoBoton h3{
+    margin-top: 10px;
+    margin-left: 10px;
     text-align: left;
-    font-size: 22px;
+    font-size: 25px;
     color: #black;
-
 }
 
 
-
 .textoBoton p{
-    margin: 10px;
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-right: 50px;
     text-align: justify;
-    font-size: 18px;
+    font-size: 20px;
     color: #black;
-    font-weight: 100;
-
+    font-weight: 300;
 }
 
 @media(max-width:652px){
     .botonTramite{
         width: -webkit-fill-available;
+
+    }
+    .textoBoton h3{
+        font-size: 25px;
     }
 }
 
 /*FIN SECCION DE BOTONES*/
 
 .pie{
-    height: 250px;
+    height: 200px;
     background-color: #dcdcdc;
     display: flex;
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+
 }
 
 .containerLogo {
-    width: 550px;
+    width: 400px;
     height: 200px;
     background-color: transparent;
     border-radius: 15px;
+    align-content: center;
 }
 .containerLogo img{
-    height: 100%;
+    height: 50%;
 }
+
 .pinGoogleMaps{
     border: 3px solid #c3c3c3;
 }
@@ -329,11 +379,12 @@ a {
     height: 200px;
     background-color: transparent;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: column;
     font-weight: bold;
     text-align: right;
     font-size: 20px;
+    color: #692e89;
 }
 
 .redesSociales{

@@ -6,6 +6,7 @@
 
 }
 
+
 /*<button class="ingresar">INGRESAR</button>*/
 /*<a href="https://cidi.cba.gov.ar/portal-publico/?App=579">*/
 
@@ -36,7 +37,7 @@
 body{
     margin: 0px;
     background-color: white;
-    font-family:Arial;
+    font-family: "Poppins", sans-serif;
 }
 
 header{
@@ -146,6 +147,7 @@ button{
     height: 90%;
 }
 
+
 .ingresar .textoIngresar{
     width: 50%;
     height: 100%;
@@ -162,6 +164,10 @@ button{
 .ingresar:hover {
     color: white ;
     background-color: #411d54 ;
+    .imagenIngresar img{
+        transform: scale(1.1);
+        transition: transform 0.8s ease;
+    }
 }
 
 
@@ -348,7 +354,7 @@ a {
 }
 
 .botonTramite {
-    width: 500px; /* Ajusta el ancho de tus botones según sea necesario */
+    width: 400px; /* Ajusta el ancho de tus botones según sea necesario */
     color: white;
     margin: 10px; /* Ajusta el margen entre los botones según sea necesario */
     background-color: #692e89; /* Ajusta el color de fondo según sea necesario */
@@ -404,7 +410,7 @@ a {
     margin-top: 10px;
     margin-left: 10px;
     text-align: left;
-    font-size: 35px;
+    font-size: 25px;
     color: #black;
 }
 
@@ -474,6 +480,7 @@ a {
     margin-top: 20px; 
     text-align: center;
     align-content: flex-start;
+    margin-bottom: 30px;
 
 }
 
@@ -655,6 +662,7 @@ a {
     place-items: center;
     justify-content: center;
     color: #692e89;
+    margin-right: 20px;
 }
 .telefono p{
     font-weight: bold;
