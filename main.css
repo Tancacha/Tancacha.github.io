@@ -175,7 +175,7 @@ a {
 }
 
 .barradivisora{
-    height: 5px;
+    height: 10px;
     background: linear-gradient(to right, #692e89 0%, #692e89 33%, #e12a48 33%, #e12a48 66%, #fbbe01 66%, #fbbe01 100%);
     display: block;
 }
@@ -292,6 +292,22 @@ a {
 }
 
 /* FIN EDICION HEADER Y CARRUSEL */
+
+
+
+/* ANUNCIO ESPECIAL */
+.anuncioEspecial{
+    width: 800px;
+    height: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.anuncioEspecial img{
+    width: 100%;
+}
+
+/*FIN ANUCNION ESPECIAL*/
 #tramitesYServicios{
     background-color: white;
     display: flex;
@@ -411,6 +427,15 @@ a {
     .textoBoton h3{
         font-size: 25px;
     }
+
+    .anuncioEspecial{
+        width: 100%;
+        height: 100%;
+    }
+    .anuncioEspecial img{
+        width: 100%;
+    }
+
 }
 
 /* FIN BOTONERA PRINCIPAL DE SERVICIOS¨*/
