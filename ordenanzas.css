@@ -384,6 +384,27 @@ a {
 
 }
 
+.boton-tarifaria {
+    width: 400px; /* Ajusta el ancho de tus botones según sea necesario */
+    color: white;
+    margin: 10px; /* Ajusta el margen entre los botones según sea necesario */
+    background-color: #692e89; /* Ajusta el color de fondo según sea necesario */
+    border-radius: 15px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.boton-tarifaria h3{
+    font-size: 25px;
+    color: #black;
+}
+
+.boton-tarifaria:hover{
+    transform: scale(1.02);
+    transition: transform 0.8s ease;
+}
+
 #boton-buscar:hover{
     color: white;
     background-color: black;
