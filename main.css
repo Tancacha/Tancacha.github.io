@@ -116,6 +116,17 @@ button{
     display: flex;
 }
 
+.contenedorInicioCartel:hover {
+    .minicartel{
+        height: 60px;
+    }
+    .imagenCartel img{
+    width: 95%;
+    height: 95%;
+}
+
+}
+
 .ingresar{
     width: 190px;
     height: 60px;
@@ -176,6 +187,8 @@ button{
     .imagenCartel img{
         transform: scale(1.1);
         transition: transform 0.8s ease;
+        width: 0%;
+        height: 0%;
     }
 }
 
@@ -196,8 +209,8 @@ button{
 }
 
 .imagenCartel img{
-    width: 90%;
-    height: 90%;
+    width: 0%;
+    height: 0%;
 }
 
 
