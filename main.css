@@ -715,17 +715,26 @@ a {
     align-content: center;
 }
 
+
+.alineadorTelefonosUtiles{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
 .telefono{
     display: flex;
     text-align: center;
     background-color: transparent;
-    margin-left: 20px;
+    margin: 20px;
     min-height: 50px;
     min-width: 80px;
     place-items: center;
     justify-content: center;
     color: #692e89;
-    margin-right: 20px;
 }
 .telefono p{
     font-weight: bold;
@@ -734,7 +743,7 @@ a {
     display: flex;
     text-align: center;
     background-color: #692e89;
-    margin-left: 8px;
+    margin: 20px;
     min-width: 3px;
     place-items: center;
     justify-content: center;
@@ -745,6 +754,10 @@ a {
 @media (max-width:1057px){
     .telefonosUtiles{
         flex-direction: column;
+    }
+    .alineadorTelefonosUtiles{
+        flex-direction: column;
+        width: fit-content;
     }
 }
 
