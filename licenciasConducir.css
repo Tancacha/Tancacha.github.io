@@ -200,6 +200,7 @@ a {
 .contenedorTextos p{
     font-size: 20px;
     margin-left: 30px;
+    color: #692e89;
 }
 
 .contenedorCategorias h3{
@@ -212,10 +213,12 @@ a {
 .contenedorTituloParrafo h2{
     font-size: 40px;
     margin-top: 20px;
+    color: #692e89;
 }
 
 .contenedorTituloParrafo p{
     font-size: 20px;
+    color:#692e89;
 }
 
 .contenedorTextoImportante{

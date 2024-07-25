@@ -48,6 +48,10 @@ header{
     
 }
 
+h4{
+    color:#692e89 ;
+}
+
 
 h1{
     font-size: 3.1em;
@@ -268,6 +272,7 @@ a {
 .contenedorTituloParrafo p{
     font-size: 20px;
     color: #692e89;
+    align-self: baseline;
 }
 
 /* FIN PRIMER DE TITULO */
@@ -431,8 +436,8 @@ a {
 
 .contenedorTituloParrafoRequisito p{
     font-size: 20px;
-    margin-top: 10px;
-    color: #692e89;;
+    color: #692e89;
+    align-self: baseline;
 }
 
 .contenedorTextos{
@@ -459,6 +464,7 @@ a {
 .contenedorTextos p{
     font-size: 20px;
     margin-left: 30px;
+    color: #692e89;
 }
 
 .contenedorCategorias h3{
@@ -466,6 +472,7 @@ a {
     margin-top: 20px;
     text-decoration: underline;
     text-decoration-color: black;
+    color: #692e89;
 }
 
 
@@ -505,6 +512,18 @@ a {
     font-size: 20px;
     margin-bottom: 20px;
     margin-bottom: 10px;
+}
+
+
+
+.importante {
+    color: #692e89;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.alinearItem{
+    padding-left: 20px;
 }
 /*FIN CONTENEDOR REQUISITOS*/
 
@@ -550,6 +569,10 @@ a {
     text-align: right;
     font-size: 20px;
     color: #692e89;
+}
+
+.containerRedes p{
+    font-weight: 600;
 }
 
 .redesSociales{
