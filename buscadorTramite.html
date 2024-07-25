@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="ordenanzas.css">
+	<title>Municipalidad de Tancacha</title>
+	<link rel="icon" href="ICONO.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<a href="https://api.whatsapp.com/send?phone=543571577144" class="btn-wsp" target="_blank">
+		<i class="fa-brands fa-whatsapp"></i>
+	</a>
+	<header>
+		<div class="containerHeader">
+			<a href="index.html">
+		<img src="logoEscudo.png" alt="Foto renovacion y logo Tancacha">
+			</a>
+		</div>
+		<div class="botoneraPrincipal">
+			<a href="#tramitesYServicios">
+			<div class="botonDeMenu">
+				<h3>Tramites</h3>
+			</div>
+			</a>
+			<div class="separadorBotonMenu"></div>
+			<a href="#areasDeGobierno">
+			<div class="botonDeMenu">
+				<h3>Gobierno</h3>
+			</div>
+			</a>
+			<div class="separadorBotonMenu"></div>
+			<a href="#portalDeComunicacion">
+			<div class="botonDeMenu">
+				<h3>Novedades</h3>
+			</div>
+			</a>
+			<div class="separadorBotonMenu"></div>
+			<div class="botonDeMenu">
+				<img src="lupa.png">
+			</div>
+		</div>
+		<a href="https://cidi.cba.gov.ar/portal-publico/?App=579">
+		<div class="ingresar">
+			<div class="imagenIngresar"><img src="iconoCidi.png"> </div>
+			<div class="textoIngresar"><p>Iniciar sesión</p></div>
+		</div>
+		</a>
+		<div class="menuDesplegable"></div>
+	</header>
+	<div class="barradivisora"></div>
+	<section class="contenedorPrincipal">
+		<div class="contenedorTituloParrafo">
+		<a href="index.html">Inicio</a>
+		<h2>Buscador de trámites</h2>
+		<p>Puedes utilizar el buscador de trámites y servicios para encontrar información sobre los requisitos para realizar trámites</p>
+		</div>
+
+
+	</section>
+	
+	<div class="barradivisora"></div>
+	<section class="OrdenanzasDeGobierno">
+		<div class="buscadorOrdenanzas">
+    <div class="buscador-container">
+        <input type="text" id="buscador" placeholder="Buscar ordenanzas por título o número">
+        <button id="boton-buscar">Buscar</button>
+    </div>
+    <div class="">
+			<h2></h2>
+		</div>
+    <ul id="lista-ordenanzas" style="display:none;">
+        <li>
+            <a href="https://municipalidad.com/tanca/home/menu">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite"><img src="iconoRentasNegro.png"></div>
+				<div class="textoBoton">
+					<h3>Rentas</h3>
+				</div>
+			</div>
+			</a> 
+        </li>
+        <li>
+        	<a href="tramitesAutomotores.html">
+			<div class="botonTramite" href="https://www.facebook.com/">
+				<div class="imagenBotonTramite"><img src="iconovehiculonegro.png"></div>
+				<div class="textoBoton">
+					<h3>Automotores</h3>
+				</div>
+			</div>
+			</a>	
+        </li>
+        <li>
+        	<a href="comercios.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite"><img src="iconoComercio.png"></div>
+				<div class="textoBoton">
+					<h3>Comercios</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="proveedores.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite"><img src="iconoProveedoresNegro.png"></div>
+				<div class="textoBoton">
+					<h3>Proveedores</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="licenciasConducir.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoLicenciaNegro.png"></div>
+				<div class="textoBoton">
+					<h3>Licencias de Conducir</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="hospital.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoHospital.png"></div>
+				<div class="textoBoton">
+					<h3>Hospital</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="cementerio.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="cementerioIcono.png"></div>
+				<div class="textoBoton">
+					<h3>Cementerio</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="ordenanzas.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite"><img src="iconoOrdenanzaNegro.png"></div>
+				<div class="textoBoton">
+					<h3>Ordenanzas</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="boletin.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite"><img src="iconoBoletinNegro.png"></div>
+				<div class="textoBoton">
+					<h3>Boletín Oficial</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="honorableConsejoDeliberante.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite"><img src="HCD.png"></div>
+				<div class="textoBoton">
+					<h3>Honorable Consejo Deliberante</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="eventos.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite"><img src="calendario.png"></div>
+				<div class="textoBoton">
+					<h3>Eventos</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="registroCivil.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite"><img src="huellaDactilar.png"></div>
+				<div class="textoBoton">
+					<h3>Registro Civil</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="HTC.html">
+			<div class=botonTramite href="">
+			<div class="imagenBotonTramite"><img src="tribunalCuentas.png"></div>
+				<div class="textoBoton">
+					<h3>Honorable Tribunal de Cuentas</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="catastro.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite"><img src="catastro.png"></div>
+				<div class="textoBoton">
+					<h3>Catastro</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="juzgado.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite"><img src="logoJuzgado.png"></div>
+				<div class="textoBoton">
+					<h3>Juzgado de Faltas</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="tramiteEspecifico.html">
+			<div class="botonTramite" href="#">
+				<div class="imagenBotonTramite"><img src="iconoAltaVehiculo.png"></div>
+				<div class="textoBoton">
+					<h3>Inscribir Vehiculo</h3>
+				</div>
+
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="bajaVehiculo.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoAltaVehiculo.png"></div>
+				<div class="textoBoton">
+					<h3>Dar de Baja Vehiculo</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="altaComercio.html">
+			<div class="botonTramite" href="#">
+				<div class="imagenBotonTramite"><img src="iconoAltaVehiculo.png"></div>
+				<div class="textoBoton">
+					<h3>Inscribir Comercio</h3>
+				</div>
+
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="bajaComercio.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoAltaVehiculo.png"></div>
+				<div class="textoBoton">
+					<h3>Dar de Baja Comercio</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="cambioDomicilioComercio.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoAltaVehiculo.png"></div>
+				<div class="textoBoton">
+					<h3>Cambio de Domicilio</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="declaracionJuradaComercio.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoAltaVehiculo.png"></div>
+				<div class="textoBoton">
+					<h3>Declaracion Jurada</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="adicionApellido.html">
+			<div class="botonTramite" href="#">
+				<div class="imagenBotonTramite"><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Adición de Apellido</h3>
+				</div>
+
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="tramiteDNI.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>D.N.I.</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="identidadGenero.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Identidad de Género</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="inscripciones.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Inscripciones</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="libretaDeFamilia.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Libretas de Familia</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="oficinaMovil.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Oficina Móvil</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="pasaporte.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Pasaporte</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="reconocimiento.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Reconocimiento</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="rectificacionPartidas.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Rectificación de Partidas</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="solicitudPartidas.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Solicitud de Partidas</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="nuevoDni.html">
+			<div class="botonTramite" href="#">
+				<div class="imagenBotonTramite"><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Robo, Deterioro, Extravio o Caducidad</h3>
+				</div>
+
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="recienNacido.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Recien Nacido</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="actualizacion5_8anos.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Actualizacion 5-8 Años</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="actualizacion14anos.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Actualizacion 14 Años</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="cambioDomicilioDni.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Cambio de Domicilio</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="errorConfeccion.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Errores de Confección</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="versionDigital.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Versión Digital</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="nacimientos.html">
+			<div class="botonTramite" href="#">
+				<div class="imagenBotonTramite"><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Nacimiento</h3>
+				</div>
+
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="matrimonio.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Matrimonio</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="defunciones.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Defunciones</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="unionConvivencial.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Unión Convivencial</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="duplicadoDeLibreta.html">
+			<div class="botonTramite" href="#">
+				<div class="imagenBotonTramite"><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Duplicado de Libretas</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="inscripcionHijo.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Inscripción de Hijos</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="ocupacionCalzada.html">
+			<div class="botonTramite" href="#">
+				<div class="imagenBotonTramite"><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Ocupacion de Calzada</h3>
+				</div>
+
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="baldioMalezas.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Terrenos Baldios Libres de Malezas</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="libresDeuda.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Libres Deuda De Multas Municipales</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="multasTransito.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Multas de Tránsito</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="permisoPoda.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Permisos de Poda o Despunte</h3>
+				</div>
+			</div>
+			</a>	
+        </li>
+        <li>
+        	<a href="extraccionArbolado.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Extracción de Arbolado</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="recetasFitosanitarias.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Recetas Fitosanitarias</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	<a href="reclamos.html">
+			<div class=botonTramite href="#">
+			<div class="imagenBotonTramite" ><img src="iconoPermisos.png"></div>
+				<div class="textoBoton">
+					<h3>Reclamos</h3>
+				</div>
+			</div>
+			</a>
+        </li>
+        <li>
+        	
+        </li>
+        <li>
+        	
+        </li>
+        <li>
+        	
+        </li>
+        <li>
+        	
+        </li>
+        <!-- Agrega más elementos li según sea necesario -->
+    </ul>
+	</div>
+	<script src="ordenanzas.js"></script>
+
+	</section>
+	<div class="barradivisora"></div>
+	<section id=telefonosUtiles>
+	</section>
+	<footer class="pie">
+		<div class="containerLogo">
+			<img src="logoEscudo.png">
+		</div>
+		<div class=pinGoogleMaps>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1003.2647450062816!2d-63.983903971332204!3d-32.24282586945328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cd72ea147a57c9%3A0x7693cda75bbf495b!2sMunicipalidad%20de%20Tancacha!5e0!3m2!1ses-419!2sar!4v1708404200076!5m2!1ses-419!2sar" width="310" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>		
+			<div class="containerRedes">
+				<div class="redesSociales">
+					<p>Seguinos en: </p>
+					<a href="https://www.instagram.com/municipalidaddetancacha/">
+					<div class="contenedorRedSocial">
+						<img src="instagram.png">
+					</div>
+					</a>
+					<div class="contenedorRedSocial">
+						<img src="twitter.png">
+					</div>
+					<a href="https://www.facebook.com/municipalidadtancacha">
+					<div class="contenedorRedSocial">
+						<img src="facebook.png">
+					</div>
+					</a>
+				</div>
+				<p>Municipalidad de Tancacha</p>
+				<p>Bartolomé Mitre 543, Tancacha, Córdoba</p>
+				<p>Tel:3571-460101</p>
+			</div>
+	</footer>
+	<div class="barradivisora"></div>
+</body>
+</html>

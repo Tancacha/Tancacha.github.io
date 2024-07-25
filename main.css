@@ -108,7 +108,7 @@ button{
 }
 
 .botonDeMenu img{
-    width: 100%;
+    width: 35px;
     height: 80%;
 }
 
@@ -336,6 +336,7 @@ a {
 
     .botonDeMenu img{
         height: 40px;
+        width: 40px;
     }
     .separadorBotonMenu{
         width: 0px;
