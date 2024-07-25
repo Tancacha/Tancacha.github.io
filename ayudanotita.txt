@@ -1,0 +1,7 @@
+warap
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<a href="https://api.whatsapp.com/send?phone=543571577144" class="btn-wsp" target="_blank">
+		<i class="fa-brands fa-whatsapp"></i>
+	</a>
+
+250x150

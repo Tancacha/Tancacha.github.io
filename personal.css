@@ -337,6 +337,10 @@ a {
     color: #692e89;
 }
 
+.containerRedes p{
+    font-weight: 600;
+}
+
 .redesSociales{
     width: 400px;
     height: 60px;
