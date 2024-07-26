@@ -103,8 +103,7 @@ button{
 }
 
 .botonDeMenu img{
-    width: 100%;
-    height: 80%;
+    width: 40px;
 }
 
 .ingresar{
@@ -589,6 +588,10 @@ a {
     color: #692e89;
 }
 
+.containerRedes p{
+    font-weight: 600;
+}
+
 .redesSociales{
     width: 400px;
     height: 60px;
@@ -649,6 +652,7 @@ a {
     .containerRedes{
         width: 100%;
         text-align: center;
+        font-size: 19px;
     }
     .redesSociales{
         width:-webkit-fill-available ;
