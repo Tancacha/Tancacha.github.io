@@ -6,15 +6,44 @@
 	<link rel="stylesheet" type="text/css" href="tramitesGenerico.css">
 	<title>Municipalidad de Tancacha</title>
 	<link rel="icon" href="ICONO.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+	<a href="https://api.whatsapp.com/send?phone=543571577144" class="btn-wsp" target="_blank">
+		<i class="fa-brands fa-whatsapp"></i>
+	</a>
 	<header>
 		<div class="containerHeader">
 			<a href="index.html">
 		<img src="logoEscudo.png" alt="Foto renovacion y logo Tancacha">
+			</a>
+		</div>
+		<div class="botoneraPrincipal">
+			<a href="index.html#tramitesYServicios">
+			<div class="botonDeMenu">
+				<h3>Trámites</h3>
+			</div>
+			</a>
+			<div class="separadorBotonMenu"></div>
+			<a href="index.html#areasDeGobierno">
+			<div class="botonDeMenu">
+				<h3>Gobierno</h3>
+			</div>
+			</a>
+			<div class="separadorBotonMenu"></div>
+			<a href="index.html#portalDeComunicacion">
+			<div class="botonDeMenu">
+				<h3>Novedades</h3>
+			</div>
+			</a>
+			<div class="separadorBotonMenu"></div>
+			<a href="buscadorTramite.html">
+			<div class="botonDeMenu">
+				<img src="lupa.png">
+			</div>
 			</a>
 		</div>
 		<a href="https://cidi.cba.gov.ar/portal-publico/?App=579">
@@ -23,6 +52,7 @@
 			<div class="textoIngresar"><p>Iniciar sesión</p></div>
 		</div>
 		</a>
+		<div class="menuDesplegable"></div>
 	</header>
 	<div class="barradivisora"></div>
 	<section class="contenedorPrincipal">
@@ -35,51 +65,35 @@
 	<div class="barradivisora"></div>
 	<section class="contenedorRequisitos">
 		<div class="contenedorTituloParrafoRequisito">
-		<h2>Requisitos por categoria</h2>
-		</div>
-		<div class="contenedorCategorias">
-		<h3>Categoria A1 (Ciclomotores, motos, triciclos y cuadriciclos)</h3>
-		</div>
-		<div class="contenedorTextos">
-		<p>• Ser mayor de 16 años</p>
-		<p>• Fotocopia de 1º y 2º hoja del D.N.I</p>
-		<p>• Grupo sanguíneo expedido por laboratorio</p>
-		<p>• Fotocopia de tarjeta verde (Vehículo con el cual realizara el examen practico)</p>
-		<p>• Fotocopia de la última cuota del seguro al día (Vehículo con el cual realizara el examen practico)</p>
-		<p>• Deberá traer todos los elementos de seguridad para su verificación, además del casco homologado.</p>
-		</div>
-		<div class="contenedorCategorias">
-		<h3>Categoria A2 (Ciclomotores, motos, triciclos y cuadriciclos)</h3>
-		</div>
-		<div class="contenedorTextos">
-		<p>• Ser mayor de 18 años</p>
-		<p>• Fotocopia de 1º y 2º hoja del D.N.I</p>
-		<p>• Grupo sanguíneo expedido por laboratorio</p>
-		<p>• Fotocopia de tarjeta verde (Vehículo con el cual realizara el examen practico)</p>
-		<p>• Fotocopia de la última cuota del seguro al día (Vehículo con el cual realizara el examen practico)</p>
-		<p>• Deberá traer todos los elementos de seguridad para su verificación, además del casco homologado.</p>
-		</div>
-		<div class="contenedorCategorias">
-		<h3>Categoria B1 (Autos y camionetas particulares)</h3>
-		</div>
-		<div class="contenedorTextos">
-		<p>• Ser mayor de 18 años</p>
-		<p>• Fotocopia de 1º y 2º hoja del D.N.I</p>
-		<p>• Grupo sanguíneo expedido por laboratorio</p>
-		<p>• Fotocopia de tarjeta verde (Vehículo con el cual realizara el examen practico)</p>
-		<p>• Fotocopia de la última cuota del seguro al día (Vehículo con el cual realizara el examen practico)</p>
-		<p>• Completar formulario de declaración Jurada de Salud</p>
-		<p>• Estar libre de multas</p>
-		<p>• El postulante deberá venir con su acompañante y un vehículo.</p>
-		</div>
-		<div class="contenedorCategorias">
-		<h3>Categoria B2 (Autos y camionetas particulares )</h3>
-		</div>
-		<div class="contenedorTextos">
-		<p>• Poseer una licencia clase B1 con una antigüedad mínima de UN (1) año</p>
-		<p>• Fotocopia de 1º y 2º hoja del D.N.I</p>
-		<p>• Completar formulario de declaración Jurada de Salud</p>
-		<p>• Presentar el carnet vencido o a vencer</p>
+		<h2>Requisitos por categoría</h2>
+		<p><b>Categoria A1 (Ciclomotores, motos, triciclos y cuadriciclos)</b></p>
+		<p class="alinearItem">• Ser mayor de 16 años</p>
+		<p class="alinearItem">• Fotocopia de 1º y 2º hoja del D.N.I</p>
+		<p class="alinearItem">• Grupo sanguíneo expedido por laboratorio</p>
+		<p class="alinearItem">• Fotocopia de tarjeta verde (Vehículo con el cual realizara el examen practico)</p>
+		<p class="alinearItem">• Fotocopia de la última cuota del seguro al día (Vehículo con el cual realizara el examen practico)</p>
+		<p class="alinearItem">• Deberá traer todos los elementos de seguridad para su verificación, además del casco homologado.</p>
+		<p><b>Categoría A2 (Ciclomotores, motos, triciclos y cuadriciclos)</b></p>
+		<p class="alinearItem">• Ser mayor de 18 años</p>
+		<p class="alinearItem">• Fotocopia de 1º y 2º hoja del D.N.I</p>
+		<p class="alinearItem">• Grupo sanguíneo expedido por laboratorio</p>
+		<p class="alinearItem">• Fotocopia de tarjeta verde (Vehículo con el cual realizara el examen practico)</p>
+		<p class="alinearItem">• Fotocopia de la última cuota del seguro al día (Vehículo con el cual realizara el examen practico)</p>
+		<p class="alinearItem">• Deberá traer todos los elementos de seguridad para su verificación, además del casco homologado.</p>
+		<p><b>Categoría B1 (Autos y camionetas particulares)</b></p>
+		<p class="alinearItem">• Ser mayor de 18 años</p>
+		<p class="alinearItem">• Fotocopia de 1º y 2º hoja del D.N.I</p>
+		<p class="alinearItem">• Grupo sanguíneo expedido por laboratorio</p>
+		<p class="alinearItem">• Fotocopia de tarjeta verde (Vehículo con el cual realizara el examen practico)</p>
+		<p class="alinearItem">• Fotocopia de la última cuota del seguro al día (Vehículo con el cual realizara el examen practico)</p>
+		<p class="alinearItem">• Completar formulario de declaración Jurada de Salud</p>
+		<p class="alinearItem">• Estar libre de multas</p>
+		<p class="alinearItem">• El postulante deberá venir con su acompañante y un vehículo.</p>
+		<p><b>Categoría B2 (Autos y camionetas particulares )</b></p>
+		<p class="alinearItem">• Poseer una licencia clase B1 con una antigüedad mínima de UN (1) año</p>
+		<p class="alinearItem">• Fotocopia de 1º y 2º hoja del D.N.I</p>
+		<p class="alinearItem">• Completar formulario de declaración Jurada de Salud</p>
+		<p class="alinearItem">• Presentar el carnet vencido o a vencer</p>
 		</div>
 		<div class="contenedorTextoImportante">
 			<div><h3>IMPORTANTE</h3>
@@ -89,10 +103,13 @@
 		
 	</section>
 	<div class="barradivisora"></div>
-	<footer class="pie">
+		<footer class="pie">
 		<div class="containerLogo">
 			<img src="logoEscudo.png">
-		</div>		
+		</div>	
+		<div class=pinGoogleMaps>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1003.2647450062816!2d-63.983903971332204!3d-32.24282586945328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cd72ea147a57c9%3A0x7693cda75bbf495b!2sMunicipalidad%20de%20Tancacha!5e0!3m2!1ses-419!2sar!4v1708404200076!5m2!1ses-419!2sar" width="310" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>	
 			<div class="containerRedes">
 				<div class="redesSociales">
 					<p>Seguinos en: </p>
@@ -115,5 +132,6 @@
 				<p>Tel:3571-460101</p>
 			</div>
 	</footer>
+	<div class="barradivisora"></div>
 </body>
 </html>

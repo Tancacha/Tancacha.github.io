@@ -634,6 +634,7 @@ a {
     .containerRedes{
         width: 100%;
         text-align: center;
+        font-size: 19px;
     }
     .redesSociales{
         width:-webkit-fill-available ;

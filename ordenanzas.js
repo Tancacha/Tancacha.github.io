@@ -3,12 +3,17 @@ document.addEventListener('DOMContentLoaded', function () {
     const botonBuscar = document.getElementById('boton-buscar');
     const listaOrdenanzas = document.getElementById('lista-ordenanzas');
 
+    // Función para normalizar texto (eliminar tildes y convertir a minúsculas)
+    function normalizarTexto(texto) {
+        return texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    }
+
     botonBuscar.addEventListener('click', function () {
-        const textoBusqueda = buscador.value.toLowerCase();
+        const textoBusqueda = normalizarTexto(buscador.value);
         const ordenanzas = listaOrdenanzas.getElementsByTagName('li');
 
         for (let i = 0; i < ordenanzas.length; i++) {
-            const tituloOrdenanza = ordenanzas[i].innerText.toLowerCase();
+            const tituloOrdenanza = normalizarTexto(ordenanzas[i].innerText);
 
             if (tituloOrdenanza.includes(textoBusqueda)) {
                 ordenanzas[i].style.display = 'block';
