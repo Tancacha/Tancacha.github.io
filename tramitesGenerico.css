@@ -641,4 +641,7 @@ a {
         justify-content: center;
 
     }
+    .contenedorTextoImportante{
+        max-width: 100%;
+    }
 }
